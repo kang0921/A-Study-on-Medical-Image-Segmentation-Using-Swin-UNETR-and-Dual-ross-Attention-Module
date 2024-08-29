@@ -13,8 +13,7 @@
 - 肺部纖維化數據集(由台中榮總傅斌貴主任提供)
 
 ## 模型架構
-![本研究之網路架構示意圖](https://hackmd.io/_uploads/HJHEt96j0.png)
-
+![本研究之網路架構示意圖](https://github.com/kang0921/A-Study-on-Medical-Image-Segmentation-Using-Swin-UNETR-and-Dual-ross-Attention-Module/blob/main/assets/%E6%9C%AC%E7%A0%94%E7%A9%B6%E4%B9%8B%E7%B6%B2%E8%B7%AF%E6%9E%B6%E6%A7%8B%E7%A4%BA%E6%84%8F%E5%9C%96.png)
 
 ## 實驗結果
 | 數據集 | Dice Coefficient | 
