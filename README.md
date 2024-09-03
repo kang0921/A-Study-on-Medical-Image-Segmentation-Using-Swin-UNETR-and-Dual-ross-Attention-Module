@@ -78,7 +78,7 @@
 2. 設定max_iterations、model_path、result_png_path、set_determinism(seed=?)
 
 ## 執行的程式檔案
-#### Preprocessing
+#### Preprocessing:
 - data_prepare_newData_jpg_to_nii.py
 - data_augmentation.py
 - lung_get_dataset_json.py
