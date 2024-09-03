@@ -8,20 +8,35 @@
 
 
 ## Datasets
-### 本專案使用以下資料集：
-- [腹腔器官分割資料集](https://www.synapse.org/Synapse:syn3193805/wiki/217789)
+#### 本專案使用以下資料集：
+- [腹腔器官分割資料集(BTCV)](https://www.synapse.org/Synapse:syn3193805/wiki/217789)
 - 肺部纖維化數據集(由台中榮總傅斌貴主任提供)
 
 ## 模型架構
 ![本研究之網路架構示意圖](https://github.com/kang0921/A-Study-on-Medical-Image-Segmentation-Using-Swin-UNETR-and-Dual-ross-Attention-Module/blob/main/assets/%E6%9C%AC%E7%A0%94%E7%A9%B6%E4%B9%8B%E7%B6%B2%E8%B7%AF%E6%9E%B6%E6%A7%8B%E7%A4%BA%E6%84%8F%E5%9C%96.png)
 
 ## 實驗結果
-| 數據集 | Dice Coefficient | 
-|-------|------------------|
-| 腹腔器官 |  85.13% |
-| 肺部纖維化（水平面） | 89.03% |
-| 肺部纖維化（冠狀面） | 89.57% |
+### 腹腔器官分割資料集(BTCV)
 
+| Methods | Average Dice Coefficient | 
+|---------|--------------------------|
+| 3D U-Net |  81.71% |
+| Swin UNETR | 82.89% |
+| Proposed Method | 85.13% |
+
+### 肺部纖維化資料集(Axial)
+| Methods | Dice Coefficient | 
+|---------|--------------------------|
+| 3D U-Net |  85.06% |
+| Swin UNETR | 86.19% |
+| Proposed Method | 89.03% |
+
+### 肺部纖維化資料集(Coronal)
+| Methods | Dice Coefficient | 
+|---------|--------------------------|
+| 3D U-Net |  87.56% |
+| Swin UNETR | 88.72% |
+| Proposed Method | 89.57% |
 ## 安裝環境
 - environment.yml
 
